@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" role="img" aria-labelledby="title desc">
+  <title id="title">Boundary playbook poster</title><desc id="desc">A blue and gold football-style playbook diagram about disclosure and discovery.</desc>
+  <defs><filter id="shadow"><feDropShadow dx="0" dy="12" stdDeviation="8" flood-color="#000" flood-opacity=".38"/></filter></defs>
+  <rect width="900" height="560" fill="#071126"/><path d="M50 70 H850 V490 H50Z" fill="#0e3a95" stroke="#ffbf2e" stroke-width="14" rx="30"/>
+  <g opacity=".4" stroke="#fff" stroke-width="4"><path d="M150 96 V464"/><path d="M300 96 V464"/><path d="M450 96 V464"/><path d="M600 96 V464"/><path d="M750 96 V464"/></g>
+  <text x="450" y="140" text-anchor="middle" font-family="Impact, Arial Black, sans-serif" font-size="70" fill="#fff" stroke="#071126" stroke-width="8" paint-order="stroke">BOUNDARY PLAYBOOK</text>
+  <g filter="url(#shadow)" font-family="Arial Black, sans-serif"><circle cx="210" cy="275" r="38" fill="#ffbf2e"/><text x="210" y="287" text-anchor="middle" font-size="30" fill="#071126">1</text><circle cx="450" cy="380" r="38" fill="#fff"/><text x="450" y="392" text-anchor="middle" font-size="30" fill="#071126">2</text><circle cx="690" cy="255" r="38" fill="#ff5d73"/><text x="690" y="267" text-anchor="middle" font-size="30" fill="#fff">3</text><path d="M248 278 C330 300 345 372 410 382" fill="none" stroke="#ffbf2e" stroke-width="12" stroke-linecap="round" stroke-dasharray="18 16"/><path d="M488 378 C560 366 590 284 650 260" fill="none" stroke="#fff" stroke-width="12" stroke-linecap="round"/><path d="M645 210 L705 250 L630 274" fill="none" stroke="#fff" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/></g>
+  <text x="450" y="470" text-anchor="middle" font-family="Arial Black, sans-serif" font-size="34" fill="#fff5c9">DISCLOSURE IS THE PLAY. DISCOVERY IS THE FUMBLE.</text>
+</svg>
