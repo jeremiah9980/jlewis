@@ -11,28 +11,110 @@
   </script>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Side-by-Side Text Communications | J. Lewis Documentation</title>
-  <meta name="description" content="Standalone side-by-side text communication page for the J. Lewis documentation timeline." />
+  <title>Full Text Thread | J. Lewis Documentation</title>
+  <meta name="description" content="Standalone full text thread and side-by-side communication page for the J. Lewis documentation timeline." />
   <style>
     :root{--bg:#0b1120;--panel:#111827;--text:#e5e7eb;--muted:#9ca3af;--line:#334155;--accent:#f59e0b;--blue:#38bdf8;--red:#fb7185;--green:#34d399;--radius:20px}
-    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:radial-gradient(circle at top left,rgba(245,158,11,.18),transparent 32rem),radial-gradient(circle at top right,rgba(56,189,248,.12),transparent 34rem),var(--bg);color:var(--text);line-height:1.58}.wrap{width:min(1180px,calc(100% - 30px));margin:0 auto;padding:30px 0 60px}header,.card{background:rgba(15,23,42,.88);border:1px solid rgba(148,163,184,.22);border-radius:var(--radius);box-shadow:0 22px 60px rgba(0,0,0,.33)}header{padding:clamp(26px,4vw,44px)}.eyebrow{color:#fcd34d;text-transform:uppercase;letter-spacing:.12em;font-weight:900;font-size:12px;margin-bottom:12px}h1{font-size:clamp(34px,5vw,62px);line-height:1.02;letter-spacing:-.055em;margin:0 0 14px}h2{font-size:clamp(23px,3vw,32px);letter-spacing:-.035em;line-height:1.12;margin:0 0 14px}h3{font-size:18px;margin:0 0 8px}.subtitle{color:#cbd5e1;font-size:clamp(16px,2vw,20px);max-width:940px;margin:0}.notice,.callout{margin-top:18px;padding:14px 16px;border-radius:14px;border-left:4px solid var(--accent);background:rgba(245,158,11,.1);color:#fde68a}.callout.blue{border-color:var(--blue);background:rgba(56,189,248,.08);color:#dff6ff}.callout.red{border-color:var(--red);background:rgba(251,113,133,.08);color:#ffe4e6}.nav{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}.nav a,.pill{text-decoration:none;color:var(--text);border:1px solid rgba(148,163,184,.24);background:rgba(255,255,255,.055);border-radius:999px;padding:8px 11px;font-size:13px;font-weight:800}.nav a:hover{border-color:rgba(245,158,11,.7);color:#fde68a}section{margin-top:24px}.card{padding:clamp(18px,2.3vw,25px)}.grid{display:grid;gap:18px}.grid.two{grid-template-columns:repeat(2,minmax(0,1fr))}.grid.three{grid-template-columns:repeat(3,minmax(0,1fr))}.grid.four{grid-template-columns:repeat(4,minmax(0,1fr))}@media(max-width:900px){.grid.two,.grid.three,.grid.four{grid-template-columns:1fr}}.stat{min-height:136px;display:flex;flex-direction:column;justify-content:center;gap:8px}.num{font-size:46px;line-height:1;font-weight:950;letter-spacing:-.07em;color:var(--accent)}.label,.muted{color:var(--muted)}.sub{color:#cbd5e1;font-size:13px}.analysis-box{border:1px solid rgba(148,163,184,.20);border-radius:18px;background:rgba(255,255,255,.043);padding:18px}.analysis-box strong{color:#fff}.quote{margin:10px 0;padding:13px 15px;border-left:4px solid var(--blue);background:rgba(56,189,248,.09);border-radius:14px;color:#e0f2fe;font-size:16px;font-weight:740}.quote.warning{border-color:var(--red);background:rgba(251,113,133,.08);color:#ffe4e6}.quote.neutral{border-color:var(--accent);background:rgba(245,158,11,.09);color:#fde68a}.toolbar{display:flex;gap:10px;flex-wrap:wrap;margin-top:16px}.toolbar input{flex:1;min-width:260px;border:1px solid rgba(148,163,184,.32);border-radius:999px;background:rgba(255,255,255,.06);color:#fff;padding:12px 15px;font:inherit}.toolbar input::placeholder{color:#94a3b8}.table-wrap{overflow-x:auto;border-radius:18px;border:1px solid rgba(148,163,184,.20);margin-top:18px}table{width:100%;border-collapse:collapse;min-width:980px}th,td{text-align:left;padding:14px 15px;border-bottom:1px solid rgba(148,163,184,.18);vertical-align:top}th{position:sticky;top:0;background:#111827;color:#f8fafc;text-transform:uppercase;letter-spacing:.06em;font-size:12px;z-index:1}tr:last-child td{border-bottom:0}td:nth-child(1){width:15%;color:#fcd34d;font-weight:900}td:nth-child(2),td:nth-child(3){width:26%}td:nth-child(4){width:20%}.tag{display:inline-block;margin:2px 5px 2px 0;padding:4px 8px;border-radius:999px;background:rgba(255,255,255,.07);border:1px solid rgba(148,163,184,.22);font-size:12px;color:#cbd5e1;font-weight:800}.footer{margin-top:30px;text-align:center;color:var(--muted);font-size:13px}.small{font-size:13px}.empty{display:none;margin-top:14px;color:#fecaca;font-weight:800}@media(max-width:720px){.toolbar input{min-width:100%}h1{letter-spacing:-.04em}}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:radial-gradient(circle at top left,rgba(245,158,11,.18),transparent 32rem),radial-gradient(circle at top right,rgba(56,189,248,.12),transparent 34rem),var(--bg);color:var(--text);line-height:1.58}.wrap{width:min(1180px,calc(100% - 30px));margin:0 auto;padding:30px 0 60px}header,.card{background:rgba(15,23,42,.88);border:1px solid rgba(148,163,184,.22);border-radius:var(--radius);box-shadow:0 22px 60px rgba(0,0,0,.33)}header{padding:clamp(26px,4vw,44px)}.eyebrow{color:#fcd34d;text-transform:uppercase;letter-spacing:.12em;font-weight:900;font-size:12px;margin-bottom:12px}h1{font-size:clamp(34px,5vw,62px);line-height:1.02;letter-spacing:-.055em;margin:0 0 14px}h2{font-size:clamp(23px,3vw,32px);letter-spacing:-.035em;line-height:1.12;margin:0 0 14px}h3{font-size:18px;margin:0 0 8px}.subtitle{color:#cbd5e1;font-size:clamp(16px,2vw,20px);max-width:940px;margin:0}.notice,.callout{margin-top:18px;padding:14px 16px;border-radius:14px;border-left:4px solid var(--accent);background:rgba(245,158,11,.1);color:#fde68a}.callout.blue{border-color:var(--blue);background:rgba(56,189,248,.08);color:#dff6ff}.callout.red{border-color:var(--red);background:rgba(251,113,133,.08);color:#ffe4e6}.nav{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}.nav a,.pill{text-decoration:none;color:var(--text);border:1px solid rgba(148,163,184,.24);background:rgba(255,255,255,.055);border-radius:999px;padding:8px 11px;font-size:13px;font-weight:800}.nav a:hover{border-color:rgba(245,158,11,.7);color:#fde68a}section{margin-top:24px}.card{padding:clamp(18px,2.3vw,25px)}.grid{display:grid;gap:18px}.grid.two{grid-template-columns:repeat(2,minmax(0,1fr))}.grid.three{grid-template-columns:repeat(3,minmax(0,1fr))}.grid.four{grid-template-columns:repeat(4,minmax(0,1fr))}@media(max-width:900px){.grid.two,.grid.three,.grid.four{grid-template-columns:1fr}}.stat{min-height:136px;display:flex;flex-direction:column;justify-content:center;gap:8px}.num{font-size:46px;line-height:1;font-weight:950;letter-spacing:-.07em;color:var(--accent)}.label,.muted{color:var(--muted)}.sub{color:#cbd5e1;font-size:13px}.analysis-box{border:1px solid rgba(148,163,184,.20);border-radius:18px;background:rgba(255,255,255,.043);padding:18px}.analysis-box strong{color:#fff}.quote{margin:10px 0;padding:13px 15px;border-left:4px solid var(--blue);background:rgba(56,189,248,.09);border-radius:14px;color:#e0f2fe;font-size:16px;font-weight:740}.quote.warning{border-color:var(--red);background:rgba(251,113,133,.08);color:#ffe4e6}.quote.neutral{border-color:var(--accent);background:rgba(245,158,11,.09);color:#fde68a}.toolbar{display:flex;gap:10px;flex-wrap:wrap;margin-top:16px}.toolbar input{flex:1;min-width:260px;border:1px solid rgba(148,163,184,.32);border-radius:999px;background:rgba(255,255,255,.06);color:#fff;padding:12px 15px;font:inherit}.toolbar input::placeholder{color:#94a3b8}.table-wrap{overflow-x:auto;border-radius:18px;border:1px solid rgba(148,163,184,.20);margin-top:18px}table{width:100%;border-collapse:collapse;min-width:980px}th,td{text-align:left;padding:14px 15px;border-bottom:1px solid rgba(148,163,184,.18);vertical-align:top}th{position:sticky;top:0;background:#111827;color:#f8fafc;text-transform:uppercase;letter-spacing:.06em;font-size:12px;z-index:1}tr:last-child td{border-bottom:0}td:nth-child(1){width:15%;color:#fcd34d;font-weight:900}td:nth-child(2),td:nth-child(3){width:26%}td:nth-child(4){width:20%}.tag{display:inline-block;margin:2px 5px 2px 0;padding:4px 8px;border-radius:999px;background:rgba(255,255,255,.07);border:1px solid rgba(148,163,184,.22);font-size:12px;color:#cbd5e1;font-weight:800}.thread{display:grid;gap:14px}.msg{border:1px solid rgba(148,163,184,.20);border-radius:18px;background:rgba(255,255,255,.043);padding:15px}.msg .speaker{font-weight:950;color:#fcd34d;margin-bottom:6px;text-transform:uppercase;letter-spacing:.05em;font-size:12px}.msg.kevin .speaker{color:#38bdf8}.msg.note .speaker{color:#c4b5fd}.msg .body{white-space:pre-wrap;font-size:16px;color:#f8fafc}.rawbox{white-space:pre-wrap;overflow-x:auto;border:1px solid rgba(148,163,184,.22);border-radius:18px;background:#020617;color:#e5e7eb;padding:18px;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;font-size:13px;line-height:1.55}.footer{margin-top:30px;text-align:center;color:var(--muted);font-size:13px}.small{font-size:13px}.empty{display:none;margin-top:14px;color:#fecaca;font-weight:800}@media(max-width:720px){.toolbar input{min-width:100%}h1{letter-spacing:-.04em}}
   </style>
 </head>
 <body>
   <main class="wrap">
     <header>
-      <div class="eyebrow">Standalone exhibit page · side-by-side communication review</div>
-      <h1>Side-by-Side Text Communications</h1>
-      <p class="subtitle">A separate HTML page for the side-by-side communication record: reported message examples, reconstructed comparison rows, theme flags, and a quick-search table for reviewing the contact pattern without mixing it into the main landing page.</p>
-      <div class="notice"><strong>Privacy / source note:</strong> This page is formatted for review and presentation. It uses reported/reconstructed excerpts and summarized source markers, not a full raw private-message export. Verify every line against the original screenshots, AppClose export, text export, or workbook before using it formally.</div>
+      <div class="eyebrow">Standalone exhibit page · full text thread · side-by-side review</div>
+      <h1>Full Text Thread & Side-by-Side Communications</h1>
+      <p class="subtitle">A separate HTML page for the side-by-side communication record, now with a full-thread appendix using the available pasted/reconstructed thread text, source markers, chronology notes, and search-ready comparison table.</p>
+      <div class="notice"><strong>Source note:</strong> This page contains the full thread text currently available in the working record/context. Lines marked “reported,” “reconstructed,” “OCR,” or “source note” should be verified against the original screenshots, AppClose export, text export, or workbook before formal use.</div>
       <nav class="nav">
         <a href="index.html">← Back to timeline</a>
+        <a href="#full-thread">Full Text Thread</a>
         <a href="#summary">Summary</a>
         <a href="#side-by-side">Side-by-Side Table</a>
         <a href="#flags">Pattern Flags</a>
         <a href="#clean-statement">Clean Statement</a>
       </nav>
     </header>
+
+    <section id="full-thread" class="card">
+      <h2>Full Text Thread Appendix</h2>
+      <p class="muted">This section keeps the thread readable and complete based on the available text. It is intentionally separated from the side-by-side analysis table.</p>
+      <div class="thread">
+        <div class="msg note"><div class="speaker">Source marker</div><div class="body">Conversation with Kevin Lewis — reconstructed from available thread text and working notes.</div></div>
+
+        <div class="msg"><div class="speaker">Jesica → Kevin</div><div class="body">…constant battle of control and I make my own money and choices and he struggles with it.
+It’s almost like he’s trying to mold me into something that I will never be because I’m my own person and I stay true to what I believe.
+My heart is my heart. There’s no switch, and I have the ability to care for people without being in love with them.</div></div>
+        <div class="msg kevin"><div class="speaker">Kevin → Jesica</div><div class="body">Damn that’s dangerous</div></div>
+        <div class="msg"><div class="speaker">Jesica → Kevin</div><div class="body">Very</div></div>
+
+        <div class="msg"><div class="speaker">Jesica → Kevin</div><div class="body">He’s a fucking psychopath… he thinks I’m in love with you and he hates our friendship.
+He thinks that I hold onto our friendship because I can’t let you go… he thinks a lot of shit but that is the gist.
+
+And he hates you
+Lol</div></div>
+
+        <div class="msg"><div class="speaker">Jesica → Kevin</div><div class="body">Every reel we share with each other is a way for us to be connected… it can’t be</div></div>
+        <div class="msg note"><div class="speaker">Thread note</div><div class="body">The available line above appears incomplete/truncated in the working record. Preserve as-is until checked against the source screenshot/export.</div></div>
+
+        <div class="msg note"><div class="speaker">Kevin / Jess comms chronology — pasted working notes</div><div class="body">Feb 22–March 6 — No communications txt
+Feb 24 — comms in Facebook kid related
+March 1 — K sends meme FB
+March 3 — he sends 2 responses
+March 8 — she send txt message about Spurs basketball game
+March 10 — she initiates question about his teams softball game txt</div></div>
+
+        <div class="msg note"><div class="speaker">Boundary / disclosure note</div><div class="body">Last week it was “just asked him 2 questions” and the way she disclosed it that time was not by disclosing it immediately, it was by leaving her phone out in front of me for me to find that she had initiated the communications 12 hours prior. The week before that it was me finding txt messages on my own and then discovering that she had also deleted messages between them the same day.</div></div>
+
+        <div class="msg"><div class="speaker">Jesica → Kevin</div><div class="body">Facebook message about a job opening.</div></div>
+        <div class="msg kevin"><div class="speaker">Kevin → Jesica</div><div class="body">So.</div></div>
+        <div class="msg"><div class="speaker">Jesica → Kevin</div><div class="body">Options bro.</div></div>
+
+        <div class="msg note"><div class="speaker">Adjacent marker</div><div class="body">Saturday, May 23, 2026 · approx. 1:15 AM — observed secure-account / ProtonMail concern. This is documented as a concealment/transparency marker, not as confirmed Kevin communication.</div></div>
+
+        <div class="msg note"><div class="speaker">Boundary-style message text from pasted working record</div><div class="body">I love you, and I want peace between us… I’m not going to ask questions… I’m not going to check up on anything.</div></div>
+        <div class="msg note"><div class="speaker">Alternate boundary framing from pasted working record</div><div class="body">The ongoing communication with Kevin doesn’t align with that… Those types of connections are closed off, not maintained.</div></div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Raw Transcript Block — IMG_3228 Working OCR / Video Transcript</h2>
+      <p class="muted">This block preserves the messy transcript text because the repeated/partial lines may matter for source comparison.</p>
+      <div class="rawbox">TRANSCRIPT: IMG_3228 (1).MOV
+Messages extracted: 439
+============================================================
+Me  [4:47]:
+  ...times it was a train wreck that rarely hap...!
+
+Me  [4:47]:
+  Looks amazing, just ...! Lol OK, ...be a couple times ...as a train ...t rarely happened! "We don't do that here in the Lewis house!" (in my K Lou voice) 🤪
+
+Me  [4:47]:
+  I can't get myfit to use the squeegee thingy
+
+Them:
+  Why not
+
+Me:
+  Lazy
+
+Them:
+  It definitely looks better than last week
+
+Me:
+  Our version of clean is definitely not on the same level
+
+Me:
+  Same with hygiene
+
+Me  [4:47]:
+  ...like it always does! Lol ...they were a couple times ...as a train wrec... that rarely ...
+
+Me  [4:47]:
+  ...rarely happened! "We do that he... in th... is house!" (in my K Lou voice) 🤪
+
+Kevin Lewis:
+  Looks amazing, just like it always does! Lol OK, maybe a couple times it was a train wreck but</div>
+    </section>
 
     <section id="summary" class="grid four">
       <div class="card stat"><div class="num">111</div><div class="label">Daily rows embedded locally</div><div class="sub">From the side-by-side workbook summary</div></div>
@@ -44,8 +126,8 @@
     <section class="card">
       <h2>Purpose of This Page</h2>
       <div class="grid two">
-        <div class="analysis-box"><h3>What it shows</h3><p class="muted">This page lays out the communication pattern in a simple left/right format: what was reportedly said, how the other side responded when known, and why that row matters to the timeline.</p></div>
-        <div class="analysis-box"><h3>What it does not claim</h3><p class="muted">This page does not claim that every row is a complete conversation, does not replace the original exports, and does not publish full private threads. It is a working exhibit-style summary.</p></div>
+        <div class="analysis-box"><h3>What it shows</h3><p class="muted">This page lays out the communication pattern in two layers: the full available text thread first, then a left/right review table showing what was reportedly said, how the other side responded when known, and why the row matters to the timeline.</p></div>
+        <div class="analysis-box"><h3>Verification standard</h3><p class="muted">The text should be tied back to the original source screenshot, export timestamp, workbook row, message ID, or AppClose/text export before being used as a final formal exhibit.</p></div>
       </div>
       <div class="callout blue"><strong>Review framing:</strong> the issue documented here is repeated access, familiarity, conflict disclosure, and discovery-based transparency concerns after boundaries had already been discussed.</div>
     </section>
@@ -59,54 +141,14 @@
         <table id="commsTable">
           <thead><tr><th>Date / Source Marker</th><th>Jesica / outgoing side</th><th>Kevin / response side</th><th>Record value / flag</th></tr></thead>
           <tbody>
-            <tr>
-              <td>Conflict disclosure<br><span class="tag">reported/reconstructed</span></td>
-              <td><div class="quote warning">“…constant battle of control and I make my own money and choices and he struggles with it.”</div><div class="quote warning">“It’s almost like he’s trying to mold me into something that I will never be because I’m my own person…”</div></td>
-              <td><div class="quote neutral">“Damn that’s dangerous”</div><div class="quote warning">Jesica replied: “Very”</div></td>
-              <td><span class="tag">marital conflict shared outward</span><span class="tag">third-party validation loop</span><p class="muted small">Shows marital conflict being explained to Kevin in a way that positioned Jeremiah as the obstacle/problem.</p></td>
-            </tr>
-            <tr>
-              <td>Conflict characterization<br><span class="tag">reported/reconstructed</span></td>
-              <td><div class="quote warning">“He’s a fucking psychopath… he thinks I’m in love with you and he hates our friendship.”</div><div class="quote warning">“He thinks that I hold onto our friendship because I can’t let you go…”</div><div class="quote warning">“And he hates you Lol”</div></td>
-              <td><p class="muted">No response captured in the working excerpt.</p></td>
-              <td><span class="tag">private marital framing</span><span class="tag">emotional safety issue</span><p class="muted small">The concern is that Kevin was brought closest to the conflict instead of being distanced from it.</p></td>
-            </tr>
-            <tr>
-              <td>Connection language<br><span class="tag">reported/reconstructed</span></td>
-              <td><div class="quote warning">“Every reel we share with each other is a way for us to be connected…”</div></td>
-              <td><p class="muted">No response captured in the working excerpt.</p></td>
-              <td><span class="tag">connection marker</span><span class="tag">meme/reel boundary</span><p class="muted small">Supports why memes/reels were not treated as harmless once the relationship history and boundary concerns existed.</p></td>
-            </tr>
-            <tr>
-              <td>Feb. 22 – Mar. 12, 2026<br><span class="tag">working timeline window</span></td>
-              <td><div class="quote">“Don’t be trying to ignore me” style contact</div><p class="muted small">Exact source text should be verified against the workbook or screenshot export.</p></td>
-              <td><p class="muted">Response not included in this summary row.</p></td>
-              <td><span class="tag">familiarity</span><span class="tag">expectation of response</span><p class="muted small">This wording matters because it suggests ongoing comfort, access, and expectation after boundaries had become a known issue.</p></td>
-            </tr>
-            <tr>
-              <td>Feb. 22 – Mar. 12, 2026<br><span class="tag">working timeline window</span></td>
-              <td><div class="quote">Meme / kid / softball / casual contact pattern</div><p class="muted small">Summarized from the timeline rather than republishing every raw message.</p></td>
-              <td><p class="muted">Multiple response points not fully reproduced in this public page.</p></td>
-              <td><span class="tag">casual re-entry</span><span class="tag">topic switching</span><p class="muted small">Shows how neutral topics can reopen the communication channel even after the underlying boundary issue was already known.</p></td>
-            </tr>
-            <tr>
-              <td>May 23, 2026 · 12:07 AM<br><span class="tag">latest marker</span></td>
-              <td><div class="quote">Facebook message about a job opening</div><div class="quote warning">“Options bro.”</div></td>
-              <td><div class="quote neutral">“So.”</div></td>
-              <td><span class="tag">latest reported contact</span><span class="tag">boundary reset</span><p class="muted small">This is the marker used by the main page for the no-contact clock reset.</p></td>
-            </tr>
-            <tr>
-              <td>May 23, 2026 · approx. 1:15 AM<br><span class="tag">adjacent marker</span></td>
-              <td><div class="quote warning">Observed secure-account / ProtonMail concern</div></td>
-              <td><p class="muted">Not documented here as confirmed Kevin communication.</p></td>
-              <td><span class="tag">concealment concern</span><span class="tag">context marker</span><p class="muted small">Included because it occurred close in time to the renewed contact and intensified the transparency concern.</p></td>
-            </tr>
-            <tr>
-              <td>IMG_3228 transcript marker<br><span class="tag">OCR/video transcript</span></td>
-              <td><div class="quote">“Looks amazing…” / house-cleaning and casual back-and-forth language appears in the extracted transcript.</div></td>
-              <td><div class="quote neutral">“Why not” / related short response language appears in the transcript.</div></td>
-              <td><span class="tag">transcript quality review</span><span class="tag">needs verification</span><p class="muted small">This row should be checked carefully because the transcript excerpt had repeated/partial lines and speaker-label ambiguity.</p></td>
-            </tr>
+            <tr><td>Conflict disclosure<br><span class="tag">reported/reconstructed</span></td><td><div class="quote warning">“…constant battle of control and I make my own money and choices and he struggles with it.”</div><div class="quote warning">“It’s almost like he’s trying to mold me into something that I will never be because I’m my own person…”</div></td><td><div class="quote neutral">“Damn that’s dangerous”</div><div class="quote warning">Jesica replied: “Very”</div></td><td><span class="tag">marital conflict shared outward</span><span class="tag">third-party validation loop</span><p class="muted small">Shows marital conflict being explained to Kevin in a way that positioned Jeremiah as the obstacle/problem.</p></td></tr>
+            <tr><td>Conflict characterization<br><span class="tag">reported/reconstructed</span></td><td><div class="quote warning">“He’s a fucking psychopath… he thinks I’m in love with you and he hates our friendship.”</div><div class="quote warning">“He thinks that I hold onto our friendship because I can’t let you go…”</div><div class="quote warning">“And he hates you Lol”</div></td><td><p class="muted">No response captured in the working excerpt.</p></td><td><span class="tag">private marital framing</span><span class="tag">emotional safety issue</span><p class="muted small">The concern is that Kevin was brought closest to the conflict instead of being distanced from it.</p></td></tr>
+            <tr><td>Connection language<br><span class="tag">reported/reconstructed</span></td><td><div class="quote warning">“Every reel we share with each other is a way for us to be connected…”</div></td><td><p class="muted">No response captured in the working excerpt.</p></td><td><span class="tag">connection marker</span><span class="tag">meme/reel boundary</span><p class="muted small">Supports why memes/reels were not treated as harmless once the relationship history and boundary concerns existed.</p></td></tr>
+            <tr><td>Feb. 22 – Mar. 12, 2026<br><span class="tag">working timeline window</span></td><td><div class="quote">“Don’t be trying to ignore me” style contact</div><p class="muted small">Exact source text should be verified against the workbook or screenshot export.</p></td><td><p class="muted">Response not included in this summary row.</p></td><td><span class="tag">familiarity</span><span class="tag">expectation of response</span><p class="muted small">This wording matters because it suggests ongoing comfort, access, and expectation after boundaries had become a known issue.</p></td></tr>
+            <tr><td>Feb. 22 – Mar. 12, 2026<br><span class="tag">working timeline window</span></td><td><div class="quote">Meme / kid / softball / casual contact pattern</div><p class="muted small">Summarized from the timeline rather than republishing every raw message.</p></td><td><p class="muted">Multiple response points not fully reproduced in this public page.</p></td><td><span class="tag">casual re-entry</span><span class="tag">topic switching</span><p class="muted small">Shows how neutral topics can reopen the communication channel even after the underlying boundary issue was already known.</p></td></tr>
+            <tr><td>May 23, 2026 · 12:07 AM<br><span class="tag">latest marker</span></td><td><div class="quote">Facebook message about a job opening</div><div class="quote warning">“Options bro.”</div></td><td><div class="quote neutral">“So.”</div></td><td><span class="tag">latest reported contact</span><span class="tag">boundary reset</span><p class="muted small">This is the marker used by the main page for the no-contact clock reset.</p></td></tr>
+            <tr><td>May 23, 2026 · approx. 1:15 AM<br><span class="tag">adjacent marker</span></td><td><div class="quote warning">Observed secure-account / ProtonMail concern</div></td><td><p class="muted">Not documented here as confirmed Kevin communication.</p></td><td><span class="tag">concealment concern</span><span class="tag">context marker</span><p class="muted small">Included because it occurred close in time to the renewed contact and intensified the transparency concern.</p></td></tr>
+            <tr><td>IMG_3228 transcript marker<br><span class="tag">OCR/video transcript</span></td><td><div class="quote">“Looks amazing…” / house-cleaning and casual back-and-forth language appears in the extracted transcript.</div></td><td><div class="quote neutral">“Why not” / related short response language appears in the transcript.</div></td><td><span class="tag">transcript quality review</span><span class="tag">needs verification</span><p class="muted small">This row should be checked carefully because the transcript excerpt had repeated/partial lines and speaker-label ambiguity.</p></td></tr>
           </tbody>
         </table>
       </div>
@@ -128,10 +170,10 @@
       <h2>Clean Side-by-Side Statement</h2>
       <p>The side-by-side record shows why the issue cannot be reduced to a single message, joke, meme, job post, or casual phrase. The broader concern is the repeated communication channel, the emotional familiarity of the language, the use of Kevin as a place to process marital conflict, and the fact that renewed contact was repeatedly discovered after the boundary issue had already been made clear.</p>
       <p>For formal use, this page should be treated as a presentation index. The original screenshots, AppClose exports, text-message exports, and spreadsheet rows remain the source of truth.</p>
-      <div class="callout red"><strong>Bottom line:</strong> this page documents the pattern. The raw evidence should remain private unless intentionally reviewed and redacted.</div>
+      <div class="callout red"><strong>Bottom line:</strong> this page now includes the full thread text available in the working record, plus the side-by-side review layer. Replace or expand it with the raw export whenever every original line is available.</div>
     </section>
 
-    <div class="footer">Prepared as a standalone J. Lewis documentation page · Built May 27, 2026 · Verify against original records before formal use.</div>
+    <div class="footer">Prepared as a standalone J. Lewis documentation page · Updated May 27, 2026 · Verify against original records before formal use.</div>
   </main>
   <script>
     const input = document.getElementById('filter');
