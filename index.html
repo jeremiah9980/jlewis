@@ -18,7 +18,7 @@
     *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:radial-gradient(circle at top left,rgba(245,158,11,.18),transparent 32rem),radial-gradient(circle at top right,rgba(56,189,248,.12),transparent 34rem),var(--bg);color:var(--text);line-height:1.58}
     .wrap{width:min(1120px,calc(100% - 30px));margin:0 auto;padding:30px 0 60px}header,.card{background:rgba(15,23,42,.88);border:1px solid rgba(148,163,184,.22);border-radius:var(--radius);box-shadow:0 22px 60px rgba(0,0,0,.33)}header{padding:clamp(26px,4vw,44px)}
     .eyebrow{color:#fcd34d;text-transform:uppercase;letter-spacing:.12em;font-weight:900;font-size:12px;margin-bottom:12px}h1{font-size:clamp(34px,5vw,62px);line-height:1.02;letter-spacing:-.055em;margin:0 0 14px}h2{font-size:clamp(23px,3vw,32px);letter-spacing:-.035em;line-height:1.12;margin:0 0 14px}h3{font-size:18px;margin:0 0 8px}.subtitle{color:#cbd5e1;font-size:clamp(16px,2vw,20px);max-width:900px;margin:0}.notice,.callout{margin-top:18px;padding:14px 16px;border-radius:14px;border-left:4px solid var(--accent);background:rgba(245,158,11,.1);color:#fde68a}.callout.blue{border-color:var(--blue);background:rgba(56,189,248,.08);color:#dff6ff}.callout.red{border-color:var(--red);background:rgba(251,113,133,.08);color:#ffe4e6}
-    .nav{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}.nav a,.pill{text-decoration:none;color:var(--text);border:1px solid rgba(148,163,184,.24);background:rgba(255,255,255,.055);border-radius:999px;padding:8px 11px;font-size:13px;font-weight:800}.nav a:hover{border-color:rgba(245,158,11,.7);color:#fde68a}section{margin-top:24px}.card{padding:clamp(18px,2.3vw,25px)}.grid{display:grid;gap:18px}.grid.two{grid-template-columns:repeat(2,minmax(0,1fr))}.grid.three{grid-template-columns:repeat(3,minmax(0,1fr))}.grid.four{grid-template-columns:repeat(4,minmax(0,1fr))}@media(max-width:900px){.grid.two,.grid.three,.grid.four{grid-template-columns:1fr}}.stat{min-height:136px;display:flex;flex-direction:column;justify-content:center;gap:8px}.num{font-size:48px;line-height:1;font-weight:950;letter-spacing:-.07em;color:var(--accent)}.label,.muted{color:var(--muted)}.sub{color:#cbd5e1;font-size:13px}.analysis-box{border:1px solid rgba(148,163,184,.20);border-radius:18px;background:rgba(255,255,255,.043);padding:18px}.analysis-box strong{color:#fff}.quote{margin:12px 0;padding:15px 17px;border-left:4px solid var(--blue);background:rgba(56,189,248,.09);border-radius:14px;color:#e0f2fe;font-size:18px;font-weight:750}
+    .nav{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}.nav a,.pill{text-decoration:none;color:var(--text);border:1px solid rgba(148,163,184,.24);background:rgba(255,255,255,.055);border-radius:999px;padding:8px 11px;font-size:13px;font-weight:800}.nav a:hover{border-color:rgba(245,158,11,.7);color:#fde68a}section{margin-top:24px}.card{padding:clamp(18px,2.3vw,25px)}.grid{display:grid;gap:18px}.grid.two{grid-template-columns:repeat(2,minmax(0,1fr))}.grid.three{grid-template-columns:repeat(3,minmax(0,1fr))}.grid.four{grid-template-columns:repeat(4,minmax(0,1fr))}.grid.five{grid-template-columns:repeat(5,minmax(0,1fr))}@media(max-width:1100px){.grid.five{grid-template-columns:repeat(3,minmax(0,1fr))}}@media(max-width:900px){.grid.two,.grid.three,.grid.four,.grid.five{grid-template-columns:1fr}}.stat{min-height:136px;display:flex;flex-direction:column;justify-content:center;gap:8px}.num{font-size:48px;line-height:1;font-weight:950;letter-spacing:-.07em;color:var(--accent)}.num.best{color:var(--green)}.label,.muted{color:var(--muted)}.sub{color:#cbd5e1;font-size:13px}.analysis-box{border:1px solid rgba(148,163,184,.20);border-radius:18px;background:rgba(255,255,255,.043);padding:18px}.analysis-box strong{color:#fff}.quote{margin:12px 0;padding:15px 17px;border-left:4px solid var(--blue);background:rgba(56,189,248,.09);border-radius:14px;color:#e0f2fe;font-size:18px;font-weight:750}
     .timeline{position:relative;padding-left:26px}.timeline:before{content:"";position:absolute;left:8px;top:10px;bottom:10px;width:2px;background:linear-gradient(var(--accent),var(--blue),#c084fc);opacity:.72}.event{position:relative;margin-bottom:18px;padding:18px;border:1px solid rgba(148,163,184,.20);border-radius:17px;background:rgba(255,255,255,.043)}.event:before{content:"";position:absolute;left:-25px;top:24px;width:13px;height:13px;border-radius:999px;background:var(--accent);box-shadow:0 0 0 5px rgba(245,158,11,.15)}.event.red:before{background:var(--red);box-shadow:0 0 0 5px rgba(251,113,133,.16)}.date{color:#fcd34d;font-weight:950;font-size:12px;letter-spacing:.09em;text-transform:uppercase;margin-bottom:8px}
     table{width:100%;border-collapse:collapse;overflow:hidden;border-radius:16px;border:1px solid rgba(148,163,184,.20);margin-top:12px}th,td{text-align:left;padding:12px 14px;border-bottom:1px solid rgba(148,163,184,.18);vertical-align:top}th{background:rgba(255,255,255,.06);color:#f8fafc;text-transform:uppercase;letter-spacing:.06em;font-size:12px}tr:last-child td{border-bottom:0}.footer{margin-top:30px;text-align:center;color:var(--muted);font-size:13px}.blog-link{display:grid;grid-template-columns:1fr auto;gap:16px;align-items:center}.blog-link a{display:inline-flex;align-items:center;justify-content:center;text-decoration:none;border-radius:999px;padding:12px 16px;background:linear-gradient(135deg,#f59e0b,#fde68a);color:#0b1120;font-weight:950}@media(max-width:720px){.blog-link{grid-template-columns:1fr}.blog-link a{width:100%}}
 
@@ -52,9 +52,10 @@
 
     <section class="card blog-link"><div><h2>Satirical Blog Subpage</h2><p class="muted">The short reflection page remains separate so this main page can stay focused on timeline and record summary.</p></div><a href="nothing-to-worry-about.html">Open Blog Post</a></section>
 
-    <section id="countdown" class="grid four">
+    <section id="countdown" class="grid five">
       <div class="card stat"><div class="num" id="daysNoContact">0</div><div class="label">Full days since latest reported Jesica → Kevin communication</div><div class="sub">From Wednesday, July 8, 2026 · 11:30 PM</div></div>
       <div class="card stat"><div class="num" id="hoursNoContact">0</div><div class="label">Approximate hours since latest contact marker</div><div class="sub">Live browser counter</div></div>
+      <div class="card stat"><div class="num best" id="longestNoContact">35</div><div class="label">Longest reported no-contact stretch</div><div class="sub" id="longestNoContactDetail">Approx. May 23 → June 27, 2026</div></div>
       <div class="card stat"><div class="num" id="daysSinceWedding">0</div><div class="label">Days from marriage date to today</div><div class="sub">Marriage date: Oct. 10, 2025</div></div>
       <div class="card stat"><div class="num">271</div><div class="label">Days from wedding to latest reported Kevin contact</div><div class="sub">Oct. 10, 2025 → July 8, 2026</div></div>
     </section>
@@ -66,10 +67,11 @@
         <div class="cycle-banner"><span class="cycle-step">Agreement / distance</span><span class="cycle-arrow">→</span><span class="cycle-step">Weeks pass</span><span class="cycle-arrow">→</span><span class="cycle-step">Communication resumes</span><span class="cycle-arrow">→</span><span class="cycle-step">Clock resets</span></div>
         <div class="reset-track">
           <div class="reset-node"><div class="reset-date">May 23, 2026</div><div class="reset-note">Job-opening Facebook Messenger exchange; prior clock reset.</div></div>
-          <div class="reset-node"><div class="reset-date">Around June 27, 2026</div><div class="reset-note">Jesica later reported speaking with Kevin; Facebook was subsequently deleted. Motive is not stated as fact.</div></div>
+          <div class="reset-node"><div class="reset-date">Around June 27, 2026</div><div class="reset-note">Jesica later reported speaking with Kevin; approximately 35 days after the May 23 marker. Facebook was subsequently deleted. Motive is not stated as fact.</div></div>
           <div class="reset-node"><div class="reset-date">July 8, 2026</div><div class="reset-note">Latest screenshot-supported Messenger activity; current clock reset point.</div></div>
         </div>
       </div>
+      <div class="callout blue"><strong>Longest recorded stretch:</strong> approximately 35 days between the May 23 and June 27 reported contact markers. The live “longest” clock will increase automatically if the current stretch eventually exceeds that record.</div>
       <div class="callout red"><strong>Current reset:</strong> Wednesday, July 8, 2026 at approximately 11:30 PM. The animation documents the recurring reset pattern; it does not independently establish motive.</div>
     </section>
 
@@ -127,6 +129,7 @@
         <article class="event"><div class="date">Feb. 22, 2026</div><h3>Direct boundary message to Kevin</h3><p class="muted">Jeremiah sent Kevin a direct boundary message stating that the marriage comes first and that continued involvement/projects/future plans with Jesica were not appropriate.</p></article>
         <article class="event"><div class="date">Feb. 22 – Mar. 12, 2026</div><h3>Resumed contact pattern</h3><p class="muted">After a short no-text period, Facebook/text contact reportedly resumed involving memes, kid-related messages, sports talk, repeated initiations, and familiar wording.</p></article>
         <article class="event red"><div class="date">May 23, 2026 · 12:07 AM</div><h3>First documented countdown reset</h3><p class="muted">Jesica reportedly sent Kevin a Facebook Messenger message about a job opening; the exchange included “Options bro.”</p></article>
+        <article class="event"><div class="date">May 23 – around June 27, 2026</div><h3>Longest reported no-contact stretch</h3><p class="muted">Approximately 35 days elapsed between the documented May 23 marker and the later reported communication around June 27.</p></article>
         <article class="event red"><div class="date">Around June 27, 2026</div><h3>Reported renewed contact</h3><p class="muted">Jesica later stated that she spoke with Kevin around this date. Facebook was subsequently deleted; the record notes the sequence without asserting motive.</p></article>
         <article class="event red"><div class="date">Wednesday, July 8, 2026 · approx. 11:30 PM</div><h3>Current countdown reset</h3><p class="muted">A screenshot shows a Facebook link in the Kevin Lewis Messenger thread. This is the current no-contact clock marker.</p></article>
       </div>
@@ -140,6 +143,8 @@
         <tr><td>7 days no contact</td><td>July 15, 2026 · 11:30 PM</td></tr>
         <tr><td>14 days no contact</td><td>July 22, 2026 · 11:30 PM</td></tr>
         <tr><td>30 days no contact</td><td>August 7, 2026 · 11:30 PM</td></tr>
+        <tr><td>35 days · tie longest reported streak</td><td>August 12, 2026 · 11:30 PM</td></tr>
+        <tr><td>36 days · new longest streak</td><td>August 13, 2026 · 11:30 PM</td></tr>
         <tr><td>60 days no contact</td><td>September 6, 2026 · 11:30 PM</td></tr>
         <tr><td>90 days no contact</td><td>October 6, 2026 · 11:30 PM</td></tr>
       </tbody></table>
@@ -150,7 +155,7 @@
       <div class="grid two">
         <div class="analysis-box"><h3>The central issue is not one message</h3><p class="muted">The broader injury is the combination of prior relationship history, continued contact after marriage, deleted/recovered messages, resumed casual contact after boundaries, and contact being discovered rather than disclosed.</p></div>
         <div class="analysis-box"><h3>Repeated resets matter</h3><p class="muted">A period of silence does not establish durable change when the channel later reopens. The animated history now makes those separate resets visible.</p></div>
-        <div class="analysis-box"><h3>Casual content still reopens access</h3><p class="muted">Links, memes, sports, and casual phrases may be low-intensity content, but they still restart communication after a stated boundary.</p></div>
+        <div class="analysis-box"><h3>Longest stretch is now measurable</h3><p class="muted">The longest reported gap is approximately 35 days, from May 23 to around June 27, 2026. The live record counter will automatically show a new record if the current streak exceeds it.</p></div>
         <div class="analysis-box"><h3>The conflict has been reactive, not repair-first</h3><p class="muted">The pattern appears discovery-driven: something is found, confrontation happens, explanation follows, the boundary is debated, and then another reset occurs.</p></div>
       </div>
       <div class="callout"><strong>Core question:</strong> “Why does the communication channel reopen after each period of distance?”</div>
@@ -159,7 +164,7 @@
     <section id="clean" class="card">
       <h2>Clean Record Statement</h2>
       <p>Since the marriage on October 10, 2025, the Kevin issue has remained an unresolved and recurring breach of emotional safety. The issue is not limited to one message, meme, job posting, link, or casual phrase. The broader pattern includes prior-history communication, unclear disclosure, continued contact, deleted/recovered messages, third-party involvement in marital conflict, resumed communication after boundaries, and discovery rather than proactive transparency.</p>
-      <p>As of Wednesday, July 8, 2026 at approximately 11:30 PM, the no-contact clock reset again based on screenshot-supported Messenger activity. Earlier reset markers from May 23 and the reported June 27 communication remain preserved in the animated reset history.</p>
+      <p>As of Wednesday, July 8, 2026 at approximately 11:30 PM, the no-contact clock reset again based on screenshot-supported Messenger activity. Earlier reset markers from May 23 and the reported June 27 communication remain preserved in the animated reset history. The longest reported no-contact stretch currently documented is approximately 35 days.</p>
     </section>
 
     <div class="footer">Prepared as a personal documentation landing page. Verify all examples against original source records before formal use.</div>
@@ -167,9 +172,19 @@
   <script>
     const latestContact = new Date("2026-07-08T23:30:00-05:00");
     const weddingDate = new Date("2025-10-10T00:00:00-05:00");
+    const historicalLongestDays = 35;
     function wholeDaysBetween(a,b){return Math.max(0,Math.floor((b.getTime()-a.getTime())/(1000*60*60*24)))}
     function wholeHoursBetween(a,b){return Math.max(0,Math.floor((b.getTime()-a.getTime())/(1000*60*60)))}
-    function updateCounters(){const now=new Date();document.getElementById("daysNoContact").textContent=wholeDaysBetween(latestContact,now);document.getElementById("hoursNoContact").textContent=wholeHoursBetween(latestContact,now);document.getElementById("daysSinceWedding").textContent=wholeDaysBetween(weddingDate,now)}
+    function updateCounters(){
+      const now=new Date();
+      const currentDays=wholeDaysBetween(latestContact,now);
+      const longestDays=Math.max(historicalLongestDays,currentDays);
+      document.getElementById("daysNoContact").textContent=currentDays;
+      document.getElementById("hoursNoContact").textContent=wholeHoursBetween(latestContact,now);
+      document.getElementById("daysSinceWedding").textContent=wholeDaysBetween(weddingDate,now);
+      document.getElementById("longestNoContact").textContent=longestDays;
+      document.getElementById("longestNoContactDetail").textContent=currentDays>historicalLongestDays?"Current streak is now the record":"Approx. May 23 → June 27, 2026";
+    }
     updateCounters();setInterval(updateCounters,60000);
   </script>
 </body>
