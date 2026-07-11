@@ -11,26 +11,213 @@
   </script>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Nothing to Worry About</title>
-  <meta name="description" content="A short reflection on trust, behavior, and reassurance." />
+  <title>Happy July — The Season of Unfinished Goodbyes</title>
+  <meta name="description" content="A satirical reflection on recurring communication, unfinished goodbyes, and the countdown resetting again." />
   <style>
-    :root { color-scheme: dark; }
+    :root {
+      --cream: #fffaf0;
+      --paper: #ffffff;
+      --ink: #34261f;
+      --muted: #75645a;
+      --orange: #f97316;
+      --soft-orange: #ffedd5;
+      --red: #dc2626;
+      --soft-red: #fee2e2;
+      --green: #15803d;
+      --soft-green: #dcfce7;
+      --line: #ead8c8;
+    }
     * { box-sizing: border-box; }
-    body { margin: 0; min-height: 100vh; display: flex; align-items: center; justify-content: center; background: radial-gradient(circle at top left, rgba(245, 158, 11, .22), transparent 30rem), #0b1120; color: #f8fafc; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.72; }
-    main { width: min(860px, calc(100% - 32px)); padding: clamp(28px, 5vw, 56px); border: 1px solid rgba(148, 163, 184, .24); border-radius: 28px; background: rgba(15, 23, 42, .9); box-shadow: 0 28px 80px rgba(0, 0, 0, .42); }
-    p { margin: 0 0 22px; font-size: clamp(20px, 2.4vw, 28px); }
-    p:last-child { margin-bottom: 0; }
-    a { display: inline-block; margin-bottom: 28px; color: #fde68a; text-decoration: none; font-weight: 800; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background:
+        radial-gradient(circle at 12% 8%, rgba(249,115,22,.22), transparent 26rem),
+        radial-gradient(circle at 88% 18%, rgba(21,128,61,.14), transparent 24rem),
+        linear-gradient(180deg, #fff7ed 0%, var(--cream) 48%, #fef2f2 100%);
+      color: var(--ink);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.72;
+    }
+    .wrap { width: min(920px, calc(100% - 30px)); margin: 0 auto; padding: 30px 0 64px; }
+    .back {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 18px;
+      color: var(--green);
+      text-decoration: none;
+      font-weight: 850;
+    }
+    article {
+      overflow: hidden;
+      border: 1px solid var(--line);
+      border-radius: 30px;
+      background: rgba(255,255,255,.93);
+      box-shadow: 0 30px 80px rgba(120,72,30,.16);
+    }
+    .hero {
+      position: relative;
+      padding: clamp(30px, 6vw, 68px);
+      background: linear-gradient(135deg, var(--soft-orange), #fff 52%, var(--soft-green));
+      border-bottom: 1px solid var(--line);
+    }
+    .hero:after {
+      content: "↻";
+      position: absolute;
+      right: clamp(18px, 5vw, 50px);
+      bottom: -26px;
+      width: 58px;
+      height: 58px;
+      display: grid;
+      place-items: center;
+      border-radius: 50%;
+      background: var(--red);
+      color: #fff;
+      font-size: 30px;
+      font-weight: 900;
+      box-shadow: 0 12px 26px rgba(220,38,38,.28);
+      animation: resetSpin 5s ease-in-out infinite;
+    }
+    .eyebrow {
+      color: var(--red);
+      font-size: 12px;
+      font-weight: 950;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+      margin-bottom: 14px;
+    }
+    h1 {
+      margin: 0;
+      max-width: 760px;
+      font-size: clamp(40px, 7vw, 76px);
+      line-height: .98;
+      letter-spacing: -.055em;
+    }
+    .dek {
+      margin: 22px 0 0;
+      max-width: 720px;
+      color: var(--green);
+      font-size: clamp(18px, 2.5vw, 25px);
+      font-weight: 800;
+    }
+    .content { padding: clamp(30px, 6vw, 64px); }
+    p { margin: 0 0 24px; font-size: clamp(19px, 2.2vw, 25px); }
+    .pair {
+      margin: 34px 0;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 14px;
+    }
+    .line-card {
+      padding: 22px;
+      border-radius: 20px;
+      font-size: clamp(20px, 2.5vw, 27px);
+      font-weight: 900;
+    }
+    .line-card:first-child { background: var(--soft-green); color: var(--green); }
+    .line-card:last-child { background: var(--soft-red); color: var(--red); }
+    .reset-list {
+      margin: 34px 0;
+      display: grid;
+      gap: 12px;
+    }
+    .reset-row {
+      display: grid;
+      grid-template-columns: 42px 1fr;
+      align-items: center;
+      gap: 12px;
+      padding: 13px 16px;
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      background: #fffdf9;
+      font-weight: 800;
+    }
+    .reset-row span:first-child {
+      display: grid;
+      place-items: center;
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      background: var(--soft-orange);
+      color: var(--orange);
+    }
+    .closing {
+      margin-top: 34px;
+      padding: 24px;
+      border-left: 6px solid var(--orange);
+      border-radius: 16px;
+      background: #fff7ed;
+      font-size: clamp(22px, 3vw, 31px);
+      font-weight: 900;
+    }
+    .tags { display: flex; flex-wrap: wrap; gap: 9px; margin-top: 34px; }
+    .tag {
+      padding: 8px 12px;
+      border-radius: 999px;
+      background: var(--soft-orange);
+      color: #9a3412;
+      font-size: 13px;
+      font-weight: 900;
+    }
+    .tag:nth-child(3n+2) { background: var(--soft-red); color: #991b1b; }
+    .tag:nth-child(3n) { background: var(--soft-green); color: #166534; }
+    @keyframes resetSpin {
+      0%, 70%, 100% { transform: rotate(0deg) scale(1); }
+      82% { transform: rotate(-28deg) scale(1.06); }
+      92% { transform: rotate(360deg) scale(1.12); }
+    }
+    @media (max-width: 680px) {
+      .pair { grid-template-columns: 1fr; }
+      .hero:after { width: 50px; height: 50px; bottom: -22px; }
+    }
   </style>
 </head>
 <body>
-  <main>
-    <a href="index.html">← Back to timeline</a>
-    <p>A man can be emotionally intelligent and still notice when the math is doing cartwheels. He can avoid accusations and still say, “This looks bad.” He can love his wife and still say, “This behavior is confusing, painful, and not aligned with what we agreed to.”</p>
-    <p>So here is the serious point underneath all the sarcasm: trust is not rebuilt by technicalities. Not by “it was just a job link.” Not by deleted context. Not by private accounts. Not by selective disclosure. Not by asking someone to ignore the exact behavior that created the concern.</p>
-    <p>Trust is rebuilt when behavior matches the agreement consistently, clearly, and without the other person having to discover the truth like they are dusting for fingerprints in their own marriage.</p>
-    <p>Because “nothing to worry about” only works when the actions look like nothing to worry about. Otherwise, it is not reassurance. It is comedy.</p>
-    <p>And there is nothing remotely funny about having your world turned upside down while trying to build a true, blissful marriage filled with a lifetime of happiness, only to have it feel like a mirage. That is not comedy. That is real sadness.</p>
-  </main>
+  <div class="wrap">
+    <a class="back" href="index.html">← Back to timeline</a>
+    <article>
+      <header class="hero">
+        <div class="eyebrow">A seasonal communication update</div>
+        <h1>Happy July. The Season of Unfinished Goodbyes.</h1>
+        <p class="dek">Nine months into marriage, and I’m still waiting to become the only priority.</p>
+      </header>
+
+      <main class="content">
+        <p>Funny how certain times of year seem to bring back more than just memories.</p>
+        <p>Apparently the beginning of July is one of those seasons—where old chapters, familiar conversations, and unfinished goodbyes somehow find their way back into harbor.</p>
+
+        <div class="pair">
+          <div class="line-card">Some people collect souvenirs.</div>
+          <div class="line-card">Some people collect unresolved attachments.</div>
+        </div>
+
+        <p>The hardest part isn’t that history exists.</p>
+        <p>It’s watching history keep getting another chance while your marriage keeps waiting for its turn to come first.</p>
+
+        <div class="reset-list">
+          <div class="reset-row"><span>1</span><div>Another promise.</div></div>
+          <div class="reset-row"><span>2</span><div>Another reset.</div></div>
+          <div class="reset-row"><span>3</span><div>Another explanation.</div></div>
+          <div class="reset-row"><span>4</span><div>Another assurance that “this time is different.”</div></div>
+        </div>
+
+        <p>Then the clock starts over.</p>
+        <p><strong>Again.</strong></p>
+
+        <div class="closing">Maybe that’s why July feels so familiar—not because of the calendar, but because the cycle never really ended.</div>
+
+        <div class="tags">
+          <span class="tag">#July2024</span>
+          <span class="tag">#GroundhogJuly</span>
+          <span class="tag">#TimeLoopSeason</span>
+          <span class="tag">#UnfinishedBusiness</span>
+          <span class="tag">#NoContactReset</span>
+          <span class="tag">#HistoryRepeats</span>
+          <span class="tag">#SameConversationDifferentDay</span>
+        </div>
+      </main>
+    </article>
+  </div>
 </body>
 </html>
